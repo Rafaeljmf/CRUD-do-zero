@@ -72,5 +72,5 @@ w
 })
 
 server.listen({
-    port: process.env.PORT ?? 3333,
+    port: process.env.PORT || 3333,
 })
